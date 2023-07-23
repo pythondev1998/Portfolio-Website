@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: #FFD700 ;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color: #FFD700 ;
 	}
 header span
 	{
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #FFD700 ; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -237,7 +237,7 @@ header .social-icon li a
 }
 
 #home h1 span {
-    color: #28a7e9;
+    color: #FFD700 ;
     font-weight: bold;
 }
 
@@ -256,7 +256,7 @@ header .social-icon li a
 }
 
 #home .btn:hover {
-    background: #28a7e9;
+    background: #FFD700 ;
     border-color: transparent;
 }
 
@@ -312,70 +312,6 @@ header .social-icon li a
 }
 /* End about */
 
-/* start team */
-#team .team-wrapper
-	{
-		background: #404040;
-		padding-bottom: 10px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-		position: relative;
-	}
-#team .team-wrapper:hover
-	{
-		cursor: pointer;
-		opacity: 0.4;
-		bottom: 4px;
-	}
-#team .team-wrapper .team-des
-	{
-		padding: 20px;
-	}
-#team .team-wrapper .team-des span
-	{
-		color: #28a7e9;
-		display: block;
-		font-weight: bold;
-		padding-bottom: 12px;
-	}
-/* end team */
-
-/* start service */
-#service .col-md-4
-	{
-		padding: 40px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-	}
-#service .col-md-4:hover
-	{
-		background: #505050;
-	}
-#service .active
-	{
-		background: #505050;
-		padding: 40px;
-	}
-#service .fa
-	{
-		border: 1px solid #fff;
-		border-radius: 2px;
-		color: #fff;
-		font-size: 50px;
-		width: 100px;
-		height: 100px;
-		line-height: 100px;
-		text-align: center;
-	}
-#service h4
-	{
-		color: #28a7e9;
-		font-weight: 600;
-		padding-top: 10px;
-		padding-bottom: 14px;
-	}
-/* end service */
-
 /* start portfolio */
 #portfolio
 	{
@@ -397,7 +333,7 @@ header .social-icon li a
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #FFD700 ;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -430,6 +366,17 @@ header .social-icon li a
 		cursor: pointer;
 		opacity: 0.8;
 	}
+
+/* Portfolio Image Styling */
+.portfolio-thumb img {
+  border-radius: 10px; /* Adjust the value as per your preference */
+}
+
+/* Portfolio Overlay Styling */
+.portfolio-overlay {
+  border-radius: 10px; /* Adjust the value to match the portfolio image border-radius */
+}
+
 /* end portfolio */
 
 /* start contact */
@@ -440,7 +387,7 @@ header .social-icon li a
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid #FFD700 ;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -457,7 +404,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: #FFD700 ;
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -539,7 +486,7 @@ header .social-icon li a
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: #FFD700 ;
 		border-color: transparent;
 	}
 /* end social icon */
@@ -558,7 +505,7 @@ header .social-icon li a
 		}
 	#portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #FFD700 ;
 		top: 0;
 		left: 0;
 		right: 0;
