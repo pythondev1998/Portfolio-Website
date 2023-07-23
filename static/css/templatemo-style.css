@@ -263,31 +263,54 @@ header .social-icon li a
 /* end home */
 
 /* start about */
-#about .media-heading-wrapper
-	{
-		padding-bottom: 32px;
-	}
-#about .media-heading-wrapper .fa
-	{
-		border: 1px solid #fff;
-		border-radius: 2px;
-		color: #fff;
-		font-size: 24px;
-		width: 60px;
-		height: 60px;
-		line-height: 60px;
-		text-align: center;
-		margin-bottom: 20px;
-		margin-right: 20px;
-	}
-#about .media-heading-wrapper h3
-	{
-		font-size: 18px;
-		font-weight: bold;
-		padding-top: 20px;
-		padding-left: 52px;
-	}
-/* end about */
+#about .media-heading-wrapper {
+    padding-bottom: 15px; /* Added vertical padding to create spacing between media headings */
+}
+
+#about .media-heading-wrapper .fa {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#about .media-heading-wrapper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 52px;
+}
+
+#about .media-heading-wrapper p {
+    margin-bottom: 20px; /* Added margin at the bottom of paragraphs for spacing */
+    margin-top: 20px; /* Added margin at the top of paragraphs for spacing */
+}
+
+/* Apply the margin to the paragraphs with the brief description */
+#about .brief-description {
+    margin-bottom: 35px; /* Added margin at the bottom of the brief description for spacing */
+}
+
+/* Agrega esta nueva regla CSS para controlar el tamaño de la imagen de perfil */
+.img-profile {
+    width: 250px; /* Ajusta el valor en píxeles según el tamaño deseado */
+    height: 250px; /* Ajusta el valor en píxeles según el tamaño deseado */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centrar verticalmente la imagen de perfil */
+#about .row {
+    display: flex;
+    align-items: center;
+}
+/* End about */
 
 /* start team */
 #team .team-wrapper
